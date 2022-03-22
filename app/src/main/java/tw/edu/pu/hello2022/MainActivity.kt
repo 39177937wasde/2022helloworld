@@ -9,9 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var txv: TextView = findViewById<TextView>(R.id.txv)
-        txv.text = "Hello Daniel"
+        txv.text = "Hello 丹尼爾"
 
-        TestMaster()
+       // TestMaster()
     }
     fun TestMaster(){
         var txv:TextView = findViewById<TextView>(R.id.txv)txv.text = "Master分支"
